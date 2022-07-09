@@ -8,9 +8,12 @@
 
 
 
-fat = int(input("Enter the # of fat grams: "))
+fat = int(input("How many grams of fat did you consume? "))
 
-carbs = int(input("Enter the # of carbohydrate grams: "))
+carbs = int(input("How many grams of carbohydrate did you consume?"))
 
 
-print("The calories from fat are {} and the calories from carbs is {}".format(fat * 9, carbs * 4))
+print("You consumed {} calories from fat and {} calories from carbs".format(fat * 9, carbs * 4))
+
+
+
