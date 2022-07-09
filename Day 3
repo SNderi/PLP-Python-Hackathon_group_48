@@ -1,0 +1,16 @@
+# Day 3: Challenge Task Two (Day 3)
+# 2. Calories from Fat and Carbohydrates A nutritionist who works for a fitness club helps members by evaluating their diets. As part of her evaluation, she asks members for the number of fat grams and carbohydrate grams that they consumed in a day. Then, she calculates the number of calories that result from the fat, using the following formula: 
+# Calories from fats fat grams * 9 
+# Next, she calculates the number of calories that result from the carbohydrates, using the following formula: 
+# Calories from carbs carb grams * 4 
+# The nutritionist asks you to write a program that will make these calculations.
+
+
+
+
+fat = int(input("Enter the # of fat grams: "))
+
+carbs = int(input("Enter the # of carbohydrate grams: "))
+
+
+print("The calories from fat are {} and the calories from carbs is {}".format(fat * 9, carbs * 4))
